@@ -1,0 +1,8 @@
+{
+  "patterns": [
+    {
+      "regexp": "([\\w\\d-]+\\/[\\w\\d-]+)#(\\d+)",
+      "replacement": "https://github.com/$1/pull/$2"
+    }
+  ]
+}
